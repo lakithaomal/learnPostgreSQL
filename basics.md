@@ -132,4 +132,5 @@ ALTER TABLE IF EXISTS public.accounts
   **NUMERIC(10,2)**             A numeric value with up to 10 total
                                 digits, including 2 digits after the
                                 decimal point.
+                                
   -----------------------------------------------------------------------
