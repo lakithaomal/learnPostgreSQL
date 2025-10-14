@@ -1,6 +1,6 @@
 # **Basics of PostgreSQL**
 
-After installing **PostgreSQL** and **pgAdmin4**, proceed by creating a
+After installing **[PostgreSQL](https://postgresapp.com/downloads.html)** and **[pgAdmin4](https://www.pgadmin.org/download/pgadmin-4-macos/)**, proceed by creating a
 user with **admin privileges**.\
 Next, create a new database --- ensure that the **locale provider** is
 set to **ICU**.\
