@@ -109,28 +109,13 @@ ALTER TABLE IF EXISTS public.accounts
 
 ## **Key Concepts**
 
-  -----------------------------------------------------------------------
-  Concept                       Description
-  ----------------------------- -----------------------------------------
-  **Primary Key**               A unique identifier for each row in a
-                                table.
+| Concept | Description |
+|----------|-------------|
+| **Primary Key** | A unique identifier for each row in a table. |
+| **Foreign Key** | A reference to a primary key in another table, declared using `REFERENCES`. |
+| **SERIAL** | Automatically creates an integer column with an auto-incrementing sequence. |
+| **VARCHAR(n)** | A variable-length string with a maximum of *n* characters (e.g., `VARCHAR(150)`). |
+| **CHAR(n)** | A fixed-length string with exactly *n* characters (e.g., `CHAR(2)`). |
+| **DATE** | A date type without time information. |
+| **NUMERIC(10,2)** | A numeric value with up to 10 total digits, including 2 digits after the decimal point. |
 
-  **Foreign Key**               A reference to a primary key in another
-                                table, declared using `REFERENCES`.
-
-  **SERIAL**                    Automatically creates an integer column
-                                with an auto-incrementing sequence.
-
-  **VARCHAR(n)**                A variable-length string with a maximum
-                                of *n* characters (e.g., `VARCHAR(150)`).
-
-  **CHAR(n)**                   A fixed-length string with exactly *n*
-                                characters (e.g., `CHAR(2)`).
-
-  **DATE**                      A date type without time information.
-
-  **NUMERIC(10,2)**             A numeric value with up to 10 total
-                                digits, including 2 digits after the
-                                decimal point.
-                                
-  -----------------------------------------------------------------------
